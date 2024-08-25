@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pirthum's PortFolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="shadow"></div>
+    <header id="head">
+        <h1>Pirthum Kumar</h1>
+        <h2>Java Developer & Frontend Developer</h2>
+
+        <nav>
+            <a href="/Portfolio.html#About" class="anchor"><span class="line"><hr></span>ABOUT</a>
+            <a href="/Portfolio.html#skill"class="anchor" ><span class="line"><hr></span>SKills</a>
+            <a href="/Portfolio.html#exp"class="anchor" ><span class="line"><hr></span>Experience</a>
+            <a href="/Portfolio.html#pro"class="anchor"><span class="line"><hr></span>Projects</a>
+            <a href="/Portfolio.html#con"class="anchor" ><span class="line"><hr></span>Contact</a>
+        </nav>
+     <div class="icon">
+        <a href=""> <i class="fa-brands fa-github"></i></a>
+        <a href=""> <i class="fa-brands fa-linkedin"></i></a>
+        <a href=""> <i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-duotone fa-solid fa-inbox"></i></a>
+     </div>
+    </header>
+<section class="about" id="About">
+    <div>
+    <h1>ABOUT</h1>
+    <p> <b>I'm Pirthum Kumar</b> I'm a  <b>Computer Science student</b> at <b>DHA Suffa University</b>. I have strong proficiency in various programming languages like <b>C, C++, Java, HTML,  CSS and Js.</b>  I am very eager to learn new things and keep myself updated with the latest trends in IT, AI, and other emerging technologies, which always help me grow personally and professionally in the fields of Computer Science and AI.
+
+        I consistently work on real-life projects to gain new insights and knowledge. For example, <b>I developed an application known as the DSU Sports Application</b> , which manages the sports department at DHA Suffa University. Additionally, I have worked on several other projects that have contributed to my learning and experience.</p>
+    </div>
+    <button><i class="fa-solid fa-download"></i><a href="/PIRTHUM_KUMAR-CV.pdf" download="Pirthum  Kumar Cv">Download REsume</a></button>
+    </section>
+
+
+<section class="skills" id="skill">
+<h1>Skills</h1>
+<div class="cont">
+    <div><i class="fa-brands fa-js"></i></div>
+    <div><i class="fa-brands fa-java"></i></div>
+    <div><i class="fa-brands fa-html5"></i></div> 
+    <div class="iconn"><i class="fa-brands fa-css3-alt"></i></div>
+    <div class="iconn"><i class="fa-solid fa-code"></i></div>
+    <div class="iconn"><i class="fa-solid fa-c"></i></div>
+</div>
+</section>
+
+<section class="Experience" id="exp">
+<h1>Experience</h1>
+<ul>
+    <li>Fresher</li>
+</ul>
+</section>
+<section class="Projects" id="pro">
+    <h1>Projects</h1> 
+    <div class="Prodtil">
+        <div> 
+            <img src="/dsu_home.png" alt="">
+            <h3>DSU SPORT MANAGEMENT SYSTEM</h3>
+        </div>
+        <div>
+            <img src="/Untitled.png" alt="">
+            <h3>CAFE MANAGEMENT SYSTEM</h3>
+        </div>
+        <div>
+            <img src="/quiz.png" alt="">
+            <h3>QUIZ APPLICATION</h3>
+        </div>
+        <div>
+            <img src="/student grading .png" alt="">
+            <h3>STUDENT GRADING SYSTEM</h3>
+        </div>
+        <div>
+            <img src="/studnt entry.png" alt="">
+            <h3>DATA ENTRY SYSTEM</h3>
+        </div>
+    </div>
+</section>
+
+<footer class="contact" id="con">
+<h1>Contact</h1>
+<div class="inp">
+<input type="text" name="name" id="name" placeholder="Name">
+<input type="email" name="email" id="email" placeholder="Email">
+<input type="tel" name="phonenumber" id="phonenumber" placeholder="Phone">
+<textarea name="message" id="message" placeholder="Message" rows="10" cols="70"></textarea>
+<button>Send</button>
+<div>
+    <h4>Pirthummankani03@gmail.com || +92 333 2501567</h4>
+    <div class="icon">
+        <a href=""> <i class="fa-brands fa-github"></i></a>
+        <a href=""> <i class="fa-brands fa-linkedin"></i></a>
+        <a href=""> <i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-duotone fa-solid fa-inbox"></i></a>
+     </div>
+</div>
+</div>
+</footer>
+    <script>
+      const shadow = document.querySelector('.shadow');
+
+window.addEventListener('mousemove', (e) => {
+    shadow.style.top = `${e.clientY}px`;
+    shadow.style.left = `${e.clientX}px`;
+});
+
+window.addEventListener('mouseover', () => {
+    shadow.style.width = '300px';
+    shadow.style.height = '300px';
+    shadow.style.opacity = '0.5';
+});
+
+window.addEventListener('mouseout', () => {
+    shadow.style.width = '100px';
+    shadow.style.height = '100px';
+    shadow.style.opacity = '0.1';
+});
+    </script>
+</body>
+</html>

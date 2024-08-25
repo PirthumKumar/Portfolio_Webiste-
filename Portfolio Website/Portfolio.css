@@ -1,0 +1,265 @@
+*{
+    
+    font-family: "Montserrat", sans-serif;
+    
+}
+body{
+    background-color: #0a192f;
+    
+}
+h1:hover,h2:hover{
+    color:rgba(38, 255, 10, 0.5);
+
+}
+.shadow {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: translate(-50% , -50%);
+    border-radius: 50%;
+    pointer-events: none; 
+    transition: width 0.3s ease, height 0.3s ease, opacity 0.3s ease;
+    z-index: 9999;
+    filter: blur(50px); 
+}
+
+#head{
+
+width: 40%;
+padding-left: 8rem;
+height: 610px;
+position: fixed;
+display: flex;
+flex-direction: column;
+color: rgba(255, 255, 255, 0.5);
+padding-top: 25px;
+
+}
+#head:hover{
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.3);
+}
+#head .anchor{
+text-decoration: none;
+color: rgba(255, 255, 255, 0.5);
+display: flex;
+margin-bottom: 20px;
+padding-top: 10px;
+font-weight: bold;
+font-size: 0.8rem;
+height: 30px;
+width: 200px;
+
+}
+
+
+#head .anchor:hover{
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px white;
+    transition: 0.1s;
+    transition-timing-function: ease-in-out;
+    color: rgba(255, 255, 255, 1);
+    background-color:  rgba(38, 255, 10, 0.5);
+}
+nav .anchor:hover .line hr {
+    width: 10px;
+    color: rgba(255, 255, 255, 0.379);
+}
+
+
+#head nav{
+    margin-top: 40px;
+}
+.line hr{
+    width: 15px;
+}
+.icon a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.226);
+    padding-left: 30px;
+    position: relative;
+    top: 30px;
+}
+.icon :hover{
+    color: rgba(255, 255, 255, 1);
+    transform: scale(1.5);
+}
+
+.about{
+    width: 40%;
+    color: white;
+    text-align: justify;
+    position: absolute;
+    left: 750px;
+    top: 120px;
+}
+.about p{
+    position: absolute;
+    top: 100px;
+    line-height: 40px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+.about p:hover { 
+    color: white;   
+ 
+}
+.about p:hover b{ 
+    color:  rgba(38, 255, 10, 0.5);
+}
+.about button{
+    position: absolute;
+    top: 620px;
+ padding: 20px;
+ background-color: rgba(255, 179, 0, 0);
+ box-shadow: 2px 2px 10px black;
+ border-radius: 50px;
+}
+
+.about button:hover{
+
+ background-color: rgba(38, 255, 10, 0.5);
+ box-shadow: 2px 2px 10px rgb(255, 255, 255);
+
+}
+.about button a{
+ text-decoration: none;
+ color: white;
+ font-weight: bold;
+}
+.about button i{
+    
+    color: white;
+ padding-right: 5px;
+   }
+.skills{
+position: absolute;
+top: 820px;
+left: 750px;
+width: 40%;
+
+height: 300px;
+color: white;
+}
+.cont{
+   
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.cont i{
+    color: rgba(255, 255, 255 , 0.5 );
+ transform: scale(3.0);
+}
+.cont i:hover{
+color: white;
+transform: scale(5.0);
+box-shadow: 2px 2px 10px white;
+}
+
+
+.Experience{
+    position: absolute;
+    left: 750px;
+    top: 1050px;
+    color: white;
+}
+.Experience li{
+    color: rgba(255, 255, 255, 0.426);
+    font-weight: bold;
+
+}
+.Experience li:hover{
+    color: white;
+}
+.Projects{
+    position: absolute;
+    left: 750px;
+    top: 1200px;
+    color: white;
+}
+.Prodtil{
+    width: 550px;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Prodtil div{
+    width: 40%;
+    height: 300px;
+ box-shadow: 2px 2px 10px black;
+  
+}
+.Prodtil img{
+    width: 100%;
+    border-radius: 10px;
+    opacity: 50%;
+}
+
+.Prodtil div h3{
+   text-align: center;
+   color: rgba(255, 255, 255, 0.333);
+}
+.Prodtil img:hover{
+    opacity: 100%;
+
+}
+.Prodtil div h3:hover{
+    color: white;
+ }
+ .Prodtil div:hover{
+transform: scale(1.2);
+box-shadow: 3px 3px 10px green;
+  
+}
+.contact{
+    color: aliceblue;
+    position: absolute;
+    left: 750px;
+    top:2300px;
+    width: 550px;
+    height: 600px;
+}
+.inp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.inp input , textarea{
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.282);
+    border: none;
+    color: white;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.inp button{
+    padding: 10px 200px;
+    border-radius: 50px;
+    background-color: rgba(38, 255, 10, 0.5);
+    color: white;
+    font-weight: bold; 
+    cursor: pointer;
+}
+.contact h4{
+    color: rgba(128, 128, 128, 0.223);
+    letter-spacing: 2px;
+    padding-top: 8px;
+}
+.contact h4:hover{
+    color: white;
+}
+footer .icon{
+position: relative;
+left: 130px;
+width: 200px;
+}
